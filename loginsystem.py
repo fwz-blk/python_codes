@@ -6,9 +6,9 @@
 print('pls enter the username:')
 user=input(">")
 print('pls enter the password:')
-passw=int(input(">"))
+passw=input(">")
 
-if user=='admin' and passw==1234:
+if user=='admin' and passw=='1234':
     print('access granted ')
 else:
     print('acess denied')

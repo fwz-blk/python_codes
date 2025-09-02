@@ -1,0 +1,53 @@
+📝 Python Practice Problems (Ch 1–3)
+
+1. Even/Odd Checker (Basic)---done
+Ask the user for a number and print whether it’s even or odd. Keep asking until they enter 0, then exit.
+
+2. Multiplication Table (For Loop)----- done 
+Ask the user for a number n. Print the multiplication table of n up to 10.
+
+3. Simple Login System---done
+Ask for a username and password.
+
+If username = admin and password = 1234, print "Access granted".
+
+Else print "Access denied".
+
+User should get max 3 attempts before program exits.
+
+4. Sum of Numbers (While Loop)--- done
+Keep asking the user for numbers until they enter done. Then print the sum of all numbers entered.
+
+5. FizzBuzz (Classic)
+Print numbers 1–50.
+
+If number is divisible by 3 → print "Fizz"
+
+If divisible by 5 → print "Buzz"
+
+If divisible by both → print "FizzBuzz"
+
+Else just print the number.
+
+6. Guess the Number Game 🎲
+
+Import random.
+
+Pick a random number between 1 and 20.
+
+Ask the user to guess.
+
+If guess is too high/low → give a hint.
+
+If correct → print "You got it!".
+
+Max 5 attempts.
+
+7. Star Pattern (Loop Practice)
+Ask the user for a number n. Print a right-angled triangle of stars of height n. Example for n=5:
+
+*
+**
+***
+****
+*****
