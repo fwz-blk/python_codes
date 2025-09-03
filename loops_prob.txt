@@ -1,0 +1,9 @@
+🔹 Loops
+
+Print all the numbers from 1 to 100 that are divisible by both 3 and 5.---done
+
+Write a program to calculate the factorial of a number using a loop.  ---- done
+
+Write a program that prints the multiplication table of a number.--done 
+
+Write a program to reverse a number (e.g., 123 → 321).
