@@ -1,0 +1,48 @@
+💪 Ultimate OOP Challenge: Mini Library System
+Problem:
+
+Create a system to manage a small library.
+
+You need two classes:
+
+1. Book
+
+Each Book object should have:
+title
+author
+available (True or False)
+
+Methods:
+borrow() → changes availability to False if available, else print "Book not available!"
+return_book() → changes availability back to True
+display_info() → prints "Title: <title>, Author: <author>, Available: <available>"
+
+2. Library
+Each Library object should have:
+A list of books (self.books = [])
+
+Methods:
+add_book(book) → adds a Book object to the library
+show_available_books() → prints info of only books that are available
+borrow_book(title) → searches by title and borrows it if available
+return_book(title) → returns a borrowed book by title
+
+
+
+Example Output (once your code runs):
+Available books:
+Title: Atomic Habits, Author: James Clear, Available: True
+Title: The Alchemist, Author: Paulo Coelho, Available: True
+
+Borrowing 'Atomic Habits'...
+Book borrowed successfully!
+
+Available books:
+Title: The Alchemist, Author: Paulo Coelho, Available: True
+
+Returning 'Atomic Habits'...
+Book returned successfully!
+
+Available books:
+Title: Atomic Habits, Author: James Clear, Available: True
+Title: The Alchemist, Author: Paulo Coelho, Available: True
